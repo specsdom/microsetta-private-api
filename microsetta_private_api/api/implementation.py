@@ -112,7 +112,7 @@ def register_account(body):
     return response
 
 
-def read_account(token_info, account_id):
+def read_account(account_id):
     # TODO:  Authentication???
     with Transaction() as t:
         acct_repo = AccountRepo(t)

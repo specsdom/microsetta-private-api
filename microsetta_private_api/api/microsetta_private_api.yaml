@@ -71,9 +71,9 @@ paths:
           $ref: '#/components/responses/401Unauthorized'
         '404':
           $ref: '#/components/responses/404NotFound'
-      security:
-        - Oauth2Scheme:
-            - uid
+#      security:
+#        - Oauth2Scheme:
+#            - uid
     put:
       operationId: microsetta_private_api.api.implementation.update_account
       tags:

@@ -38,4 +38,4 @@ def build_app():
 # If we're running in stand alone mode, run the application
 if __name__ == '__main__':
     app = build_app()
-    app.run(port=8082, debug=True)
+    app.run(port=8082, debug=False)
